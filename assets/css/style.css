@@ -62,7 +62,7 @@ img {
 /* --- 3. Header --- */
 header {
     background: #3E2C24;
-    color: White
+    color: var(--white-color);
     padding: 70px 0;
     text-align: center;
 }
@@ -104,7 +104,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 1px solid  #3E2C24;
 }
 
 nav ul {
@@ -131,7 +131,7 @@ nav ul li a::after {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: var(--accent-color);
+    background-color:  #3E2C24;
     transition: width 0.4s ease;
 }
 
@@ -271,12 +271,12 @@ nav ul li a:hover::after {
 
 .btn-secondary {
     background: transparent;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    color: var(--light-text-color);;
+    border: 2px solid  #3E2C24;
 }
 
 .btn-secondary:hover {
-    background: var(--primary-color);
+    background:  #3E2C24;
     color: var(--white-color);
 }
 
